@@ -1,0 +1,38 @@
+body {
+	background-color: gray;
+	margin: 0;
+}
+
+nav {
+	background-color: white;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: fixed; /* Make it stick, even on scroll */
+    /*overflow: auto;*/ /* Enable scrolling if the sidenav has too much content */
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    padding: 0 40px;
+
+}
+
+li {
+	display: inline;
+	text-align: center;
+}
+
+.p-card {
+	padding: 50px 25px;
+	background-color: white;
+	margin: 15px;
+	display: block;
+}
+
+.landing-div {
+	padding: 100px;
+	background-color: white;
+	margin: 0;
+}
