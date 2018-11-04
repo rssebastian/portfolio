@@ -92,30 +92,6 @@ nav a:hover::after {
 	border-radius: 15px;
 }
 
-/* .brief-statement {
-	width: 70%;
-	text-align: left;
-	float: left;
-	margin: 0;
-	color: #d9d7ca;
-	font-weight: 500;
-	font-size: 24px;
-} */
-
-/* .portrait {
-	width: 30%;
-	margin: 0;
-	float: right;
-	overflow: auto;
-} */
-
-/* #img-me {
-	max-width: 60%;
-	max-height: 60%;
-	margin: 0 auto;
-	display: block;
-} */
-
 div::after {
 	content: "";
     clear: both;
@@ -130,7 +106,7 @@ div::after {
 
 .projects {
 	margin: 0 auto;
-	text-align: center;
+	text-align: left;
 	width: 90%;
 	color: #3b3535;
 }
@@ -144,6 +120,7 @@ div::after {
 .project-card {
 	width: 75%;
 	margin: 0 auto;
+	text-align: center;
 	/* border: 1px solid #3b3535; */
 	padding: 0;
 	background-color: #3b3535;
@@ -157,3 +134,38 @@ img {
 	height: 300px;
 	width: 300px;
 }
+
+.education {
+	background-color: #3c8d93;
+	color: #d9d7ca;
+	text-align: right;
+	padding: 25px;
+}
+
+#education-label {
+	float: right;
+}
+
+.school-photo {
+	width: 40%;
+	margin: 0;
+	float: left;
+}
+
+#campanile {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	display: block;
+}
+
+.education-description {
+	width: 60%;
+	text-align: right;
+	float: right;
+	margin: 0;
+	color: #d9d7ca;
+	/* font-weight: 500;
+	font-size: 24px; */
+}
+
