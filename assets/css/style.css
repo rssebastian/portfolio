@@ -169,3 +169,42 @@ img {
 	font-size: 24px; */
 }
 
+.bio {
+	background-color: #3b3535;
+	color: #d9d7ca;
+	text-align: left;
+	padding: 25px;
+}
+
+#bio-label {
+	float: left;
+}
+
+.pic-of-me {
+	width: 40%;
+	margin: 0;
+	float: right;
+}
+
+#me {
+	width: 75%;
+	height: 75%;
+	margin: 0 auto;
+	display: block;
+}
+
+.bio-description {
+	width: 60%;
+	text-align: left;
+	float: left;
+	margin: 0;
+	color: #d9d7ca;
+	/* font-weight: 500;
+	font-size: 24px; */
+}
+
+.icon {
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+}
