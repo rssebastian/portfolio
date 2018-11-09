@@ -1,3 +1,19 @@
+@-webkit-keyframes bluesandgreens {
+	0%{background-position:0% 15%}
+	50%{background-position:100% 86%}
+	100%{background-position:0% 15%}
+}
+@-moz-keyframes bluesandgreens {
+	0%{background-position:0% 15%}
+	50%{background-position:100% 86%}
+	100%{background-position:0% 15%}
+}
+@keyframes bluesandgreens { 
+	0%{background-position:0% 15%}
+	50%{background-position:100% 86%}
+	100%{background-position:0% 15%}
+}
+
 body {
 	margin: 0;
 	background-color: #d9d7ca;
@@ -11,10 +27,20 @@ body {
 	margin: 0 auto;
 }
 
+.gradient {
+	background: linear-gradient(298deg, #1f454d, #3c8d93, #73604f, #3b3535);
+	/* #d9d7ca */
+	background-size: 1000% 1000%;
+
+	-webkit-animation: bluesandgreens 59s ease infinite;
+	-moz-animation: bluesandgreens 59s ease infinite;
+	animation: bluesandgreens 59s ease infinite;
+}
+
 header {
-	background-color: #1f454d;
+	/* background-color: #1f454d; */
 	width: 100%;
-	position: fixed;
+	padding: 0 0 10%;
 }
 
 header::after {
@@ -75,7 +101,7 @@ nav a:hover::after {
 }
 
 .brief-bio {
-	background-color: #3c8d93;
+	/* background-color: #3c8d93; */
 	text-align: center;
 	margin: 0 auto;
 	padding: 100px 75px 50px;
